@@ -5,13 +5,30 @@
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,700">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="scripts/app.js" type="text/javascript"></script>
+
   </head>
-  <body>
+  <body class="js-menu-close">
+  <div id="sidebar-wrapper" class="js-menu-open">  
+    <h2>Spike</h2>
+    <h2>Spiegel</h2>
+
+    <div id="sidebar-links">
+    <div id="close-btn" class="js-menu-close"><img src="img/icons/x.svg"></div>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+  </div>
   	<div id="intro" class="hero container-fluid landscape">
+    <div id="hamburger" class="js-menu-open"><img src="img/icons/menu.svg"></div>
   		<h1>Spike Spiegel</h1>
   		<h5>Freelance Photographer</h5>
   		<a class="btn btn-default cta" href="#gallery" role="button">See More</a>
   	</div>
+
   	<div id="about" class="hero container">
   	  <h2>About Me</h2>
 
