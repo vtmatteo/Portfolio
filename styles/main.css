@@ -58,6 +58,10 @@
     height: 30px;
     width: 30px; }
 
+#intro {
+  background-image: url(../img/weather/hero-cloudy-afternoon.jpg);
+}
+
 .hero {
   font-family: "Roboto", serif;
   text-align: center;
